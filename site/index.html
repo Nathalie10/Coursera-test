@@ -1,9 +1,96 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Nuestro Menú</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mi primera pagina</title>
+<style>
+
+
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 45px;
+}
+
+p {
+  border: 1px black;
+  background-color:  #808080;
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left:auto; ;
+  font-family: ARIAL;
+  color:WHITE ;
+
+}
+
+
+.row {
+  width: 100%;
+}
+@media (min-width: 1200px) {
+  .col-lg-1,.col-md-2,.col-md-3 { 
+    float: left;
+    border: 1px solid black;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width:16.66%;
+  }
+  .col-lg-3 {
+    width: 30%;
+  
+  }
+}
+
+h1 {
+  
+  color: ORANGE;
+  text-align: center;
+  font-family: ARIAL;
+
+}
+ 
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .col-md-1, .col-md-2, .col-md-3 {
+    float: left;
+    border: 1px solid black;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 30%;
+  }
+  
+  
+}
+
+</style>
 </head>
 <body>
-<h1>Nuestro Menú</h1>
+ <h1>Nuestro menu </h1>
+
+
+
+<div class="row">
+
+
+  <div class= "col-lg-3 col-md-6 "><p>Carne en salsa : Deliciosa carne de ternero  en salsa de cerezas con un sabor y aroma delicioso , acompañada de arroz blanco y un vino espumante</p></div>
+
+  <div class="col-lg-3 col-md-6"><p>Filet a la plancha: Contiene arroz, papas fritas , un delicioso filiet de pescado a la plancha y una guarnición de verduras , puede ser acompañado con una bebida gaseosa o natural a su elección </p></div>
+
+  <div class="col-lg-3 col-md-6"><p> Pie de limón : Este famoso pie contiene una capa de galleta con el relleno tradicional de pie de limón y una cubierta de gelatina de limón y en la parte superior crem chantilly es ideal para cualquier ocación  </p></div>
+
+
 </body>
 </html>
